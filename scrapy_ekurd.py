@@ -1,12 +1,6 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import scrapy
 import pandas as pd
-
-
-# dates = []
-# titles = []
-# descrips = []
-# urls = []
 
 
 class BrickSetSpider(scrapy.Spider):
@@ -30,7 +24,6 @@ class BrickSetSpider(scrapy.Spider):
 
         NEXT_PAGE_SELECTOR = "//a[@class='nextpostslink']/@href"
         next_page = response.xpath(NEXT_PAGE_SELECTOR).extract_first()
-        print('\n'*2, next_page, '\n'*2)
 
         for news in response.css(SET_SELECTOR):
 
@@ -61,5 +54,4 @@ class BrickSetSpider(scrapy.Spider):
             out2[c] = out2[c].astype(str)
 
         self.out = pd.concat([self.out, out2], axis=0)
-        # print('\n'*8, len(self.out), '\n'*8)
         self.out.to_csv('~/Downloads/test.csv')
