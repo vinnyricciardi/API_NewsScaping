@@ -12,6 +12,7 @@ scrapy_{news site name}.py
 - One per site domain due to unique page structure
 
 <br>*Tables*<br>
+
 source_feeds.csv
 - List containing websites and subdomains to scrape.
 - Contains rss url and descritption of type of backscraping code needed
