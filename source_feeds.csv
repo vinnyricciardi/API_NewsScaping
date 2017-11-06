@@ -1,0 +1,31 @@
+site,rss_url,subdomain,active,notes,cookies,hasNextIteration,Status,Notes
+rudaw,http://www.rudaw.net/english/rss?type=top,topstories ,1,,rudnaw.txt,0.5,,javascript workaround needed for hidden links
+rudaw,http://www.rudaw.net/english/rss?ID=510,kurdistan,1,,rudnaw.txt,0.5,,javascript workaround needed for hidden links
+rudaw,http://www.rudaw.net/english/rss?ID=531,middleeast,1,,rudnaw.txt,0.5,,javascript workaround needed for hidden links
+rudaw,http://www.rudaw.net/english/rss?ID=587,world,1,,rudnaw.txt,0.5,,javascript workaround needed for hidden links
+rudaw,http://www.rudaw.net/english/rss?ID=595,business,1,,rudnaw.txt,0.5,,javascript workaround needed for hidden links
+rudaw,http://www.rudaw.net/english/rss?ID=600,interview,1,,rudnaw.txt,0.5,,javascript workaround needed for hidden links
+rudaw,http://www.rudaw.net/english/rss?ID=605,opinion,1,,rudnaw.txt,0.5,,javascript workaround needed for hidden links
+rudaw,http://www.rudaw.net/english/rss?ID=1151,cultureandart,1,,rudnaw.txt,0.5,,javascript workaround needed for hidden links
+rudaw,http://www.rudaw.net/english/rss?ID=619,lifestyle,1,,rudnaw.txt,0.5,,javascript workaround needed for hidden links
+kurdistan24,http://www.kurdistan24.net/en/rsspage,all,0,access denied to feed,,0,,
+basnews,http://www.basnews.com/index.php/en/detail/content/112-basnews-so?format=feed&type=rss,all,1,does not update rss,basnews.txt,1,,
+ekurd,http://ekurd.net/feed,all,1,,ekurd.txt,1,Done,
+kurdishglobe,www.kurdishglobe.net ,all,0,does not have rss feed,,0.5,,javascript workaround needed for hidden links
+pukmedia,http://www.pukmedia.com/EN/EN_RSS.aspx,all,1,,pukmedia.txt,0.5,,Selenium needed for javascript dropdowns
+aljazeera,http://www.aljazeera.com/xml/rss/all.xml,all,1,,aljazeera.txt,0,,
+alarabiya,https://english.alarabiya.net/.mrss/en.xml,home,1,,alarabiya.txt,1,,
+alarabiya,https://english.alarabiya.net/.mrss/en/News.xml,news,1,,alarabiya.txt,1,,
+alarabiya,https://english.alarabiya.net/.mrss/en/perspective.xml,perspectives,1,,alarabiya.txt,1,,
+alarabiya,https://english.alarabiya.net/.mrss/en/business.xml,business,1,,alarabiya.txt,1,,
+alarabiya,https://english.alarabiya.net/.mrss/en/views.xml,opinion,1,,alarabiya.txt,1,,
+alarabiya,https://english.alarabiya.net/.mrss/en/life-style.xml,lifestyle,1,,alarabiya.txt,1,,
+alarabiya,https://english.alarabiya.net/.mrss/en/sports.xml,sports,1,,alarabiya.txt,1,,
+alarabiya,https://english.alarabiya.net/.mrss/en/videos.xml,videos,1,,alarabiya.txt,1,,
+alarabiya,https://english.alarabiya.net/.mrss/en/blog.xml,blogs,1,,alarabiya.txt,1,,
+iraqinews,,all,0,no rss feed,,0.5,,Hidden pages with possible manual xrange work around
+almonitor,https://www.al-monitor.com/rss,all,1,,almonitor.txt,1,,"Manual xrange needed, no next. Use archives (note, hidden)"
+mtikrg,http://mtikrg.org/Default.aspx?page=category&c=newsreport,all,0,no rss feed,,1,,Simple 1 page of news dating back to 2010. Not much content
+krdgov,http://cabinet.gov.krd/a/i.aspx?l=12&s=040000,all,0,no rss feed,,0.5,,javascript workaround needed for hidden links
+nmrkrg,http://mnr.krg.org/index.php/en/media-center/press-release,all,0,no rss feed,,1,,Simple 1 page of news dating back to 2004?
+kurdistaninvest,http://www.kurdistaninvestment.org/news.html,all,0,no rss feed,,0,,
