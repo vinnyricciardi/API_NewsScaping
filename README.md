@@ -10,6 +10,10 @@ rss_scraper.py
 scrapy_{news site name}.py
 - Backscraper {news site name} using the Scrapy package to iterate archives
 - One per site domain due to unique page structure
+- To run, [download scrapy](https://pypi.python.org/pypi/Scrapy), then in a terminal type:<br>
+```python
+scrapy runspider scrapy_{news site name}.py
+```
 
 <br>*Tables*<br>
 
