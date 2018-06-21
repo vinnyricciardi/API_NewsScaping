@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import sys
 sys.path.insert(0, '/home/vinny_ricciardi/virtenvs/py2_api_rss_scrape/lib/python2.7/site-packages');
 
@@ -29,45 +29,7 @@ def getRSS(path, path_2_rssout, path_2_cookies):
         os.system("wget --load-cookies {} {} -P {}".format(cookie, k, fp))
 
 newsurls = getRSS('/home/vinny_ricciardi/Documents/Scripts/Python/Projects/API_Research/Projects/Scripts/News_Scraper/source_feeds.csv',
-                  '/home/vinny_ricciardi/Documents/Scripts/Python/Projects/API_Research/Projects/Scripts/News_Scraper/rss/',
+                  # '/home/vinny_ricciardi/Documents/Scripts/Python/Projects/API_Research/Projects/Scripts/News_Scraper/rss/',
+                  '/home/vinny_ricciardi/Documents/Data_Library_SSD/Webscraping/APInewsScraper/rss/',
                   '/home/vinny_ricciardi/Documents/Scripts/Python/Projects/API_Research/Projects/Scripts/News_Scraper/cookies/')
 
-
-# TODO: Build function to parse feeds. Needs to walk new db structure
-# # Function to fetch the rss feed and return the parsed RSS
-# def parseRSS(rss_url):
-#
-# 	response = urllib2.urlopen(rss_url)
-# 	rss = response.read()
-#
-#
-# 	return feedparser.parse(rss)
-#
-#
-# # Function grabs the rss feed headlines (titles) and returns them as a list
-# def getHeadlines(rss_url, how='title'):
-#
-#     headlines = []
-#
-#     feed = parseRSS(rss_url)
-#     for newsitem in feed['items']:
-#         headlines.append(newsitem[how])
-#
-#     return headlines
-#
-# # A list to hold all headlines
-# allheadlines = []
-#
-# newsurls = getRSS('/home/vinny_ricciardi/Documents/Scripts/Python/Projects/API_Research/Projects/Scripts/News_Scraper/source_feeds.csv',
-#                   '/home/vinny_ricciardi/Downloads/tmp/')
-#
-#
-# # Iterate over the feed urls
-# for key, url in newsurls.items():
-#
-#     # Call getHeadlines() and combine the returned headlines with allheadlines
-#     allheadlines.extend(getHeadlines(url, how='links'))
-#
-# # Iterate over the allheadlines list and print each headline
-# # for hl in allheadlines:
-# #     print(hl)
